@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Play, Pause, Music } from 'lucide-react';
+import { Play, Pause } from 'lucide-react';
 import Teddy from '../components/Teddy';
 
 export default function PlaylistPage() {

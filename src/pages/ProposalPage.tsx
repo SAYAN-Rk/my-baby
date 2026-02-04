@@ -39,7 +39,6 @@ export default function ProposalPage() {
   };
 
   const handleNoHover = (e: React.MouseEvent) => {
-    const btn = e.currentTarget as HTMLButtonElement;
     const randomX = Math.random() * 300 - 150;
     const randomY = Math.random() * 300 - 150;
     setNoBtnPosition({ x: randomX, y: randomY });
